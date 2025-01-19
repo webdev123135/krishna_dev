@@ -1,0 +1,216 @@
+/* Text Adjustment */
+@media screen and (max-width: 1400px){
+    /* Page2 */
+    .page2-container{
+        padding: 3vw;
+    }
+    .page2-text{
+        text-align: center;
+        line-height: 3.5rem;
+    }
+    .page2-text-line{
+        font-size: 3rem;
+    }
+    /* Page4 */
+    .page4-main-text{
+      text-align: center;
+      padding-top: 20px;
+    }
+    .page4-main-text h2 span{
+        font-size: 3rem;
+    }
+    /* page6 */
+    .page6-main-text{
+      text-align: center;
+      padding-top: 20px;
+    }
+    .page6-main-text h2 span{
+        font-size: 3rem;
+    }
+}
+/* Project-media-1 */
+@media screen and (max-width:1150px){
+  .page1-content nav h3,.page1-content nav h3{
+    font-size: 1.4rem;
+  }
+  .page1 .cursor-move {
+    height: 9vw;
+    width: 9vw;
+  }
+  .page1 .cursor-move h5{
+    font-size: 1.4vw;
+  }
+  .page1-content h1{
+    padding-bottom: 30px;
+  }
+  /* Page2 */
+  .page2-text-line{
+    font-size: 2.6rem;
+  } 
+  /* Page4 */
+  .page4-main-text h2 span{
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+   }
+   /* page6 */
+   .page6-main-text h2 span{
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+   }
+   /* page7 */
+   .page7 .mySwiper-main{
+    margin-top: 40px;
+   }
+    /* section-2-page - 8 */
+    .footer-main .footer-page-2{
+        padding-top: 40px;
+    }
+    /* section-3-page - 8 */
+    .footer-page-3-rejouice h1 span{
+        line-height: 35vw
+    }
+}   
+/* Project-media-2 */
+@media screen and (max-width:998px){
+    /* page1 */
+    .page1-content h4{
+        font-size: 1.2rem;
+    }
+    /* page2 and page4*/
+    .page2-logos h1 span, .page4-logos h1 span,.page6-logos h1 span{
+      font-size: 1.4rem;
+    }
+    .page2-main-text h2 span{
+        font-size:2rem;
+        line-height: 1.1rem;
+    }
+    /* page3 */
+    .page3 .page3-top h4{
+      font-size: 1rem;
+    }
+    .page3 .page3-top h4 span{
+      font-size: .90rem;
+    }
+    .page3 .page3-box-top h3{
+      font-size: 1.1rem;
+    }
+    /* page4 */
+    .page4-main-text h2 span{
+      font-size:2rem;
+      line-height: 3rem;
+    }
+    /* page6 */
+    .page6-main-text h2 span{
+      font-size:2rem; 
+      line-height: 3rem;
+    }
+    /* page7 */
+    .page7 .page7-top h1{
+      font-size: 12vw;
+    }
+    /* page8-Section-3 */
+    .footer-main .footer-page-3{
+      height: 45vh;
+    }
+    .footer-page-3-rejouice h1 span{
+      line-height: 35vw
+    }
+}
+/* Project-media-3 */
+@media screen and (max-width:794px){
+  /* page2 */
+  .page2-logos h1 span{
+      font-size: 1.1rem;
+  }
+  .page2-main-text h2 span{
+    font-size: 1.5rem;
+  }
+  /* page3 */
+  .page3-top h2 span{
+    font-size: 2.5rem;
+  }
+  .page3 .page3-elements{
+    height: auto;
+    gap: 20px;
+  }
+  .page3 .page3-elements .box{
+    width: 100%;
+  }
+   /* page4 */
+  .page4-logos h1 span{
+    font-size: 1.1rem;
+  }
+  .page4-main-text h2 span{
+    font-size: 1.5rem;
+  }
+  /* page6 */
+  .page6-logos h1 span{
+    font-size: 1.1rem;
+  }
+  .page6-main-text h2 span{
+    font-size: 1.5rem;
+  }
+  /* footer */
+  .footer-main .footer-page-2{
+    height: 45vh;
+  }
+  .footer-page-2 .footer-page-2-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:40px
+  }
+  .footer-page-2-right .footer-nav-items{
+    gap: 10px;
+  }
+  .footer-page-2-right .footer-media-nav{
+    gap: 10px;
+  }
+  .footer-page-2 .footer-page-2-left h1{
+    font-size: 1.4rem;
+  }
+  .footer-page-2 .footer-page-2-left h3{
+    font-size: 1.2rem;
+    padding: 15px 15px;
+  }
+  .footer-page-2-right .footer-nav-items a{
+    font-size: .80rem;
+  }
+  .footer-page-3-top .footer-page-3-top-left h2{
+      font-size: 1rem
+  }
+  .footer-page-3-top .footer-page-3-top-right{
+    gap: 30px;
+    flex-direction: column;
+  }
+  .footer-page-3-top .footer-page-3-top-right h2{
+     font-size: 1rem
+  }
+  .footer-main .footer-page-3{
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 580px){
+    /* page2 */
+    .page2-logos h1 span{
+      font-size: .95rem;
+   }
+   .page2-main-text h2 span{
+    font-size: .98rem;
+  }
+  /* page3 */
+  .page3-top h2 span{
+    font-size: 1.9rem;
+  }
+  .page3 .page3-box-top h3{
+    font-size: .85rem;
+  }
+  /* page4 */
+  .page4-main-text h2 span{
+    font-size: .98rem;
+  }
+  /* page6 */
+  .page6-main-text h2 span{
+    font-size: .98rem;
+  }
+}

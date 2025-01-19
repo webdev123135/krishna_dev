@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    overflow-x: hidden;
+}
+section
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.nav-items
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    gap: 70px;
+}
+nav h1
+{
+    font-size: 30px;
+}
+nav h1 i
+{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 30px;
+}
+nav h4
+{
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+nav button
+{
+    padding: 10px 15px;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid #000;
+    font-weight: 400;
+    cursor: pointer;
+}
+.center
+{
+    padding: 30px 80px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.center-part-1
+{
+    height: 100%;
+    width: 45%;
+    
+}
+.center-part-1 h1
+{
+    line-height: 1.2;
+    font-size: 4rem;
+    font-family: monospace;
+}
+.center-part-1 p
+{
+    font-size: 17px;
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-part-1 button
+{
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    font-weight: 300;
+}
+.center-part-2
+{
+    height: 100%;
+    width: 55%;
+    position: relative;
+}
+.center-part-2 img
+{
+    width: 100%;
+    height: 500px;
+    
+}
+.inner-section-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+  
+}
+.inner-section-2 img
+{
+    height: 30px;
+}
+.inner-section-3 .services
+{
+
+    padding: 40px 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+.services h3
+{
+    background: #BBFF5C;
+    font-weight: 500;
+    padding: 1px 2px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+.services p
+{
+    width: 55%;
+    font-size: 17px;
+    font-weight: 400;
+}
+.container
+{
+    height: 86%;
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.element
+{
+    flex-shrink: 0;
+    height: 310px;
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 40px;
+    /* background-color: red; */
+    padding: 40px 50px;
+    display: flex;
+}
+.element:nth-child(1)
+{
+    box-shadow: 0 8px 0 black;
+    border: 2px solid rgb(122, 122, 122);
+}
+.element:nth-child(4)
+{
+    box-shadow: 0 8px 0 black;
+    border: 2px solid rgb(122, 122, 122);
+}
+.element-text
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.element-text h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    background: #9AE975;
+    width: 85%;
+    padding: 2px 2px;
+}
+.element-text h4
+{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    gap: 6px;
+}
+.element-text h4 i
+{
+    
+    font-size: 28px;
+    padding: 2px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+}
+.element-img
+{
+    height: 100%;
+    width: 50%;
+}
+.element-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.box-black
+{
+    background: #000;
+}
+.box-black-txt h2
+{
+    background: white;
+}
+.box-black-txt h4
+{
+    color: white;
+}
+.box-white-txt h4 i
+{
+    background: #000;
+    color: white;
+}

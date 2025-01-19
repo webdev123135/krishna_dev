@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    background: #000;
+    color: white;
+}
+/* box - animation */
+    /* .box1
+    {
+        height: 300px;
+        width: 300px;
+        background: crimson;
+        
+    }
+    .box2
+    {
+        height: 300px;
+        width: 300px;
+        background: aqua;
+        
+    } */
+/* Some other features */
+    /* .box3
+    {
+        height: 300px;
+        width: 300px;
+        background: royalblue;
+    } */
+
+ /* Basic navigation bar by gsap-timeline-property */
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+} 
+.nav-part2
+{
+    display: flex;
+    gap: 40px;
+}
+.nav-front-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    white-space: nowrap;
+}

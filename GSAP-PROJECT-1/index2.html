@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .page3{
+            height: 70vh;
+            width: 100vw;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .page3 .page3-text{
+            overflow: hidden;
+            height: 155px;
+        }
+        .page3 .page3-text h4{
+            color: #161616;
+            font-weight: lighter;
+            display: flex;
+            align-items: self-start;
+            justify-content: center;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+        .page3 .page3-text h4 span{
+            font-size: .7vw;
+            background-color: #000;
+            color: #fff;
+            border-radius: 100px;
+            padding: 4px 6px;
+            text-align: center;
+        }
+        .page3 .page3-text h4 i{
+            color: #161616;
+            margin-top: 2px;
+        }
+        .page3 .page3-text h1{
+            cursor: pointer;
+            font-size: 4vw;
+            font-weight: lighter;
+            line-height: 1;
+            position: relative;
+        }
+        .page3 .page3-text h1::after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            bottom: 0;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            background-color: #000000;
+            transition: transform .4s ease-out;
+        }
+        .page3 .page3-text h1:hover::after{
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page3">
+        <div class="page3-text">
+            <h4>Agency & Venture <span>Models</span> <i class="ri-corner-right-down-line"></i></h4>
+            <h1>Explore our services</h1>
+            <h1>& engagement models</h1>    
+        </div>
+    </div>
+
+</body>
+</html>

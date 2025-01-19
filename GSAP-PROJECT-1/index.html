@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      user-select: none;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .mySwiper-main {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: crimson;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .swiper {
+      width: 100%;
+      height: 60%;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="mySwiper-main">
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./GSAP-PROJECT-IMG/swiper-img-2.avif" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./GSAP-PROJECT-IMG/swiper-img-3.avif" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./GSAP-PROJECT-IMG/swiper-img-4.avif" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./GSAP-PROJECT-IMG/swiper-img-5.avif" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="./GSAP-PROJECT-IMG/swiper-img-1.avif" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+      },
+      speed: 1500,
+    });
+  </script>
+</body>
+
+</html>
